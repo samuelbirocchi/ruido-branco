@@ -11,7 +11,9 @@
             "Alexa, abrir chiado infinito",
             "Alexa, peça ao chiado infinito para tocar"
           ],
-          "keywords": ["ruído branco", "dormir", "sono", "white noise"]
+          "keywords": ["ruído branco", "dormir", "sono", "white noise"],
+          "smallIconUri": "https://samuelbirocchi.github.io/ruido-branco/icons/icon-108.png",
+          "largeIconUri": "https://samuelbirocchi.github.io/ruido-branco/icons/icon-512.png"
         }
       },
       "category": "SLEEP_AND_RELAXATION_SOUNDS",
@@ -31,7 +33,13 @@
       "usesPersonalInfo": false,
       "isChildDirected": false,
       "isExportCompliant": true,
-      "containsAds": false
+      "containsAds": false,
+      "locales": {
+        "pt-BR": {
+          "privacyPolicyUrl": "https://samuelbirocchi.github.io/ruido-branco/privacy.html",
+          "termsOfUseUrl": "https://samuelbirocchi.github.io/ruido-branco/terms.html"
+        }
+      }
     }
   }
 }
