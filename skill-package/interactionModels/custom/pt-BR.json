@@ -1,0 +1,32 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "som de dormir",
+      "intents": [
+        {
+          "name": "TocarIntent",
+          "slots": [],
+          "samples": [
+            "tocar",
+            "toca",
+            "começar",
+            "começa",
+            "toca o som",
+            "tocar ruído branco",
+            "toca ruído branco",
+            "tocar o barulho",
+            "som"
+          ]
+        },
+        { "name": "AMAZON.StopIntent", "samples": [] },
+        { "name": "AMAZON.CancelIntent", "samples": [] },
+        { "name": "AMAZON.PauseIntent", "samples": [] },
+        { "name": "AMAZON.ResumeIntent", "samples": [] },
+        { "name": "AMAZON.HelpIntent", "samples": [] },
+        { "name": "AMAZON.FallbackIntent", "samples": [] },
+        { "name": "AMAZON.NavigateHomeIntent", "samples": [] }
+      ],
+      "types": []
+    }
+  }
+}
