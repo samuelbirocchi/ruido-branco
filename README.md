@@ -82,8 +82,9 @@ atualize a constante `AUDIO_URL` no `lambda/index.js` antes do deploy.
 ./scripts/generate-audio.sh   # requer ffmpeg
 ```
 
-Para ruído rosa (mais grave, tipo chuva): troque `c=white` por `c=pink` e remova o
-filtro `-af`. Commit + push: o GitHub Pages atualiza a URL sozinho em ~1 min.
+O som atual é **ruído marrom** (graves, tipo cachoeira). Para ruído rosa (mais
+chiado, tipo chuva): troque `c=brown` por `c=pink`. Commit + push: o GitHub Pages
+atualiza a URL sozinho em ~1 min — sem mexer na skill.
 
 ## Testes
 
