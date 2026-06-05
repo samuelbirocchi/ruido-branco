@@ -82,9 +82,11 @@ atualize a constante `AUDIO_URL` no `lambda/index.js` antes do deploy.
 ./scripts/generate-audio.sh   # requer ffmpeg
 ```
 
-O som atual é **ruído marrom** (graves, tipo cachoeira). Para ruído rosa (mais
-chiado, tipo chuva): troque `c=brown` por `c=pink`. Commit + push: o GitHub Pages
-atualiza a URL sozinho em ~1 min — sem mexer na skill.
+O som atual é um **drone grave** (ruído marrom + corte em 500 Hz — "zooommm" de
+cabine de avião, zero chiado). Variantes guardadas em `audio/`: `zoom-grave`
+(idêntica à atual) e `branco-suave` (branco equalizado). Para trocar o som da
+skill, sobrescreva `ruido-branco-60min.mp3` e faça push: o GitHub Pages atualiza
+a URL sozinho em ~1 min — sem mexer na skill.
 
 ## Testes
 
