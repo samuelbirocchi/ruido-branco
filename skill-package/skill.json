@@ -4,19 +4,19 @@
     "publishingInformation": {
       "locales": {
         "pt-BR": {
-          "name": "Som de Dormir",
+          "name": "Chiado Infinito",
           "summary": "Ruído branco em loop infinito até você mandar parar.",
           "description": "Toca ruído branco suavizado em loop contínuo, sem limite de tempo, até você dizer \"Alexa, para\". Sem anúncios, sem assinatura, sem limite de uma hora.",
           "examplePhrases": [
-            "Alexa, abrir som de dormir",
-            "Alexa, peça ao som de dormir para tocar"
+            "Alexa, abrir chiado infinito",
+            "Alexa, peça ao chiado infinito para tocar"
           ],
           "keywords": ["ruído branco", "dormir", "sono", "white noise"]
         }
       },
       "category": "SLEEP_AND_RELAXATION_SOUNDS",
       "isAvailableWorldwide": true,
-      "testingInstructions": "Diga 'abrir som de dormir' e deixe tocar por mais de duas horas para validar o loop.",
+      "testingInstructions": "Diga 'abrir chiado infinito' e deixe tocar por mais de duas horas para validar o loop.",
       "distributionCountries": []
     },
     "apis": {

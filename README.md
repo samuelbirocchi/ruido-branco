@@ -1,4 +1,4 @@
-# Som de Dormir — ruído branco infinito para Alexa
+# Chiado Infinito — ruído branco infinito para Alexa
 
 Skill Alexa **100% gratuita** que toca ruído branco em loop contínuo até você dizer
 **"Alexa, para"**. Sem limite de 1 hora, sem assinatura, sem anúncios — os limites que as
@@ -52,7 +52,7 @@ atualize a constante `AUDIO_URL` no `lambda/index.js` antes do deploy.
 1. **Conta**: crie/use uma conta em [developer.amazon.com](https://developer.amazon.com)
    com **o mesmo e-mail da conta Amazon dos seus Echos**. É grátis.
 2. **Criar skill**: [console Alexa](https://developer.amazon.com/alexa/console/ask) →
-   *Create Skill* → nome `Som de Dormir` → locale **Portuguese (BR)** → tipo
+   *Create Skill* → nome `Chiado Infinito` → locale **Portuguese (BR)** → tipo
    **Custom** → hosting **Alexa-hosted (Node.js)** → template *Start from scratch*.
 3. **Interaction model**: aba *Build* → *Interaction Model* → *JSON Editor* → cole o
    conteúdo de [`skill-package/interactionModels/custom/pt-BR.json`](skill-package/interactionModels/custom/pt-BR.json)
@@ -63,15 +63,15 @@ atualize a constante `AUDIO_URL` no `lambda/index.js` antes do deploy.
    [`lambda/index.js`](lambda/index.js) deste repo → *Save* → **Deploy**.
    (O `package.json` do template já traz `ask-sdk-core`; não precisa mexer.)
 6. **Testar**: aba *Test* → habilite *Development*. No simulador digite
-   `abrir som de dormir` (o simulador nem sempre toca áudio — confie no device real).
-7. **No Echo**: "Alexa, abrir som de dormir". Para parar: "Alexa, para".
+   `abrir chiado infinito` (o simulador nem sempre toca áudio — confie no device real).
+7. **No Echo**: "Alexa, abrir chiado infinito". Para parar: "Alexa, para".
    **Deixe tocando 2h+ uma vez** para confirmar que o loop re-enfileira todo ciclo.
 
 ## Comandos de voz
 
 | Comando | Efeito |
 |---|---|
-| "Alexa, abrir som de dormir" | começa a tocar imediatamente |
+| "Alexa, abrir chiado infinito" | começa a tocar imediatamente |
 | "Alexa, para" / "cancela" / "pausa" | para |
 | "Alexa, continua" | retoma (recomeça do zero — em ruído branco dá no mesmo) |
 | "Alexa, para em 2 horas" | timer de sono nativo da Alexa (grátis, não é da skill) |

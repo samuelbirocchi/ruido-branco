@@ -1,5 +1,5 @@
 /**
- * Som de Dormir — skill Alexa que toca ruído branco em loop infinito
+ * Chiado Infinito — skill Alexa que toca ruído branco em loop infinito
  * até o usuário mandar parar ("Alexa, para").
  *
  * Mecânica do loop (ver README):

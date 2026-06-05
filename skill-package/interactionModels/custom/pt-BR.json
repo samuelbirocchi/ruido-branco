@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "som de dormir",
+      "invocationName": "chiado infinito",
       "intents": [
         {
           "name": "TocarIntent",
