@@ -8,5 +8,5 @@ Skill Alexa de ruído branco em loop infinito (ver `README.md`). Duas regras que
 ## Comandos
 
 ```bash
-cd lambda && npm test
+cd lambda && npm install && npm test
 ```
